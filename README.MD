@@ -57,35 +57,34 @@ This is a simple Node.js application that demonstrates CRUD operations using Mon
    ```bash
    git clone https://github.com/yourusername/node-mongodb-crud.git
    cd node-mongodb-crud
-Install dependencies:
 
-bash
-Copy code
-npm install
-Configure MongoDB connection:
+2. Install dependencies:
 
-Open config/db.js and update the MongoDB connection string.
+npm install express mongoose
 
-Run the application:
 
-bash
-Copy code
-npm start
+3. Run the application:
+
+Start Docker Desktop:
+Start Containers:
+$ docker-compose -f .\docker-compose.yml -f .\docker-compose.dev.yml up -d --build
 The server will start at http://localhost:3000.
+
+$ docker-compose -f .\docker-compose.yml -f .\docker-compose.dev.yml down
+
+
 
 API Endpoints
     Create a Post
     Endpoint: POST /api/v1/posts
     Request Body:
-    json
-    Copy code
+ 
     {
     "title": "Your Post Title",
     "body": "Your Post Body"
     }
         Response:
-        json
-        Copy code
+ 
         {
         "success": true,
         "data": {
@@ -95,5 +94,9 @@ API Endpoints
             "createdAt": "timestamp"
         }
         }
+        
 Get All Posts
 Endpoint: GET /api/v1/posts
+
+
+...Review controllers/postControllers for all METHODS...
