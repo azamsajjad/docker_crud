@@ -36,7 +36,6 @@ Request Body:
             }
 
 
-Certainly! Below is a basic example of a README.md file for a CRUD (Create, Read, Update, Delete) Node.js application using MongoDB, with the API endpoint at localhost:3000/api/v1/posts.
 
 ### Run Application
 
