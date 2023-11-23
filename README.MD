@@ -11,7 +11,6 @@ This is a simple Node.js application that demonstrates CRUD operations using Mon
 
 - Docker Desktop Installed
 - Node.js installed
-- MongoDB installed and running
 
 
 ### Installation
