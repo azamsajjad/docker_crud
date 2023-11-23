@@ -6,10 +6,13 @@ This is a simple Node.js application that demonstrates CRUD operations using Mon
 
 ## Getting Started
 
+
 ### Prerequisites
 
+- Docker Desktop Installed
 - Node.js installed
 - MongoDB installed and running
+
 
 ### Installation
 
@@ -24,22 +27,10 @@ This is a simple Node.js application that demonstrates CRUD operations using Mon
     npm install --only=dev nodemon
     npm install express mongoose
 
-3. The server will start at http://localhost:3000/api/v1/posts.
-
-API Endpoints
-Create a Post
-Endpoint: POST /api/v1/posts
-Request Body:
-            {
-            "title": "Your Post Title",
-            "body": "Your Post Body"
-            }
-
-
 
 ### Run Application
 
-1. Run the application:
+- Run the application:
 
 Start Docker Desktop:
 Start Containers:
